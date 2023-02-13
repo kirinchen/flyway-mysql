@@ -5,12 +5,12 @@ Run suite-test:
 ```
 git clone https://github.com/vagnerd/flyway-postgresql.git
 sudo chown -R 101 sql_versions
-docker-compose up -d
+docker-compose up -d --build
 ```
 
 Access flyway container:
 ```
-docker exec -it flyway-postgresql_flyway_1 /bin/bash 
+docker-compose exec -T flyway /bin/bash 
 ```
 
 SQL migrate versions directory:
