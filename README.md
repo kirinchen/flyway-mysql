@@ -3,14 +3,13 @@ Flyway and PostgreSQL tests (docker-compose)
 
 Run suite-test:
 ```
-git clone https://github.com/vagnerd/flyway-postgresql.git
-sudo chown -R 101 sql_versions
+docker-compose down --rmi local
 docker-compose up -d --build
 ```
 
 Access flyway container:
 ```
-docker-compose exec -T flyway /bin/bash 
+docker-compose exec -T flyway sh 
 ```
 
 SQL migrate versions directory:
