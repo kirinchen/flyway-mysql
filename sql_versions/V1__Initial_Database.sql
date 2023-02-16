@@ -1,18 +1,3 @@
-/*
- Navicat Premium Data Transfer
-
- Source Server         : AIRLINE_EDI_TASK_DB
- Source Server Type    : MySQL
- Source Server Version : 50738
- Source Host           : afwprd.cctwl58vu3o3.us-west-2.rds.amazonaws.com:3306
- Source Schema         : cw1edi
-
- Target Server Type    : MySQL
- Target Server Version : 50738
- File Encoding         : 65001
-
- Date: 13/02/2023 11:39:25
-*/
 
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
