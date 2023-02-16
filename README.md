@@ -23,10 +23,7 @@ flyway info
 flyway migrate
 ```
 
-Access PostgreSQL database
-```
-docker exec -it flyway-postgresql_flyway_1 psql
-```
+
 
 Example use:
 ```
